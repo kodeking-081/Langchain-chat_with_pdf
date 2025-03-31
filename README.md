@@ -27,24 +27,24 @@ Ensure you have the following installed:
 
 ### Setup
 1. Clone the repository:
-- git clone https://github.com/kodeking-081/Langchain-chat_with_pdf.git
-- cd <repository-folder>
+git clone https://github.com/kodeking-081/Langchain-chat_with_pdf.git
+cd <repository-folder>
 
 2. Create a virtual enviroment:
-- python -m <venv_name> venv
-- source <venv_name>/Scripts/activate
+python -m <venv_name> venv
+source <venv_name>/Scripts/activate
 
 3. Install Dependencies:
-- pip install -r requirements.txt
+pip install -r requirements.txt
 
 4. Pull the required Ollama model:
-- ollama pull llama3
+ollama pull llama3
 
 5. Run the Ollama server:
--ollama serve
+ollama serve
 
 6. Start the application:
-- streamlit run app.py
+streamlit run app.py
 
 ## Usage
 
